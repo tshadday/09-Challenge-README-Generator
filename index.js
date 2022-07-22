@@ -8,48 +8,48 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type:"input",
-        name:"Title",
+        name:"title",
         message:"What is the Title of the project?",
     },
     {
         type:"input",
-        name:"Description",
+        name:"description",
         message:"Describe your project",
     },
     {
         type:"input",
-        name:"Installation",
+        name:"installation",
         message:"How can people install your project?",
     },
     {
         type:"input",
-        name:"Test",
+        name:"test",
         message:"How can people test your project?",
     },
     {
         type:"input",
-        name:"Usage",
+        name:"usage",
         message:"What should the user know about using your product?",
     },
     {
         type:"list",
-        name:"License",
+        name:"license",
         message:"What license does your project have?",
         choices: ["Apache", "MIT", "BSD", "GPL", "None"]
     },
     {
         type:"input",
-        name:"Contributing",
+        name:"contributing",
         message:"What would you like to tell the people that wish to contribute?",
     },
     {
         type:"input",
-        name:"Github",
+        name:"github",
         message:"Enter your Github username.",
     },
     {
         type:"input",
-        name:"Email",
+        name:"email",
         message:"Enter your email address.",
     },
 ];
