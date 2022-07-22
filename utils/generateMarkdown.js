@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
   if (license === "None") {
     return " ";
   } else {
-    return `[License](#license)`;
+    return `* [License](#license)`;
   }
 }
 
@@ -32,43 +32,43 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${renderLicenseBadge(license.data)}
+  ${renderLicenseBadge(data.license)}
 
-  ##Description
+  ## Description
 
-  ##Table of Contents
+  ## Table of Contents
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.license)}
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ##Installation
+  ## Installation
 
   To install the project: ${data.install}
 
-  ##Usage
+  ## Usage
 
   ${data.usage}
 
-  ##License
+  ## License
 
   ${renderLicenseSection(data.license)}
 
-  ##Contributing
+  ## Contributing
 
   ${data.contributing}
 
-  ##Tests
+  ## Tests
 
   To test the project: ${data.test}.
 
-  ##Questions
+  ## Questions
 
   For any questions, please email me at ${data.email}.
-  If you are interested in more of my projects, please check out my Gihub at [${data.github}]{https://github.com/${data.github}}.
+  If you are interested in more of my projects, please check out my Gihub: [${data.github}](https://github.com/${data.github}).
 `;
 }
 
