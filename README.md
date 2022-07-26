@@ -4,22 +4,24 @@
 
   ## Description
 
+  makes a professional README from prompts
+  
   ## Table of Contents
 
   * [Installation](#installation)
   * [Usage](#usage)
-
+   
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
   ## Installation
 
-  To install the project: undefined
+  To install the project: run "npm i", then "run node index.js"
 
   ## Usage
 
-  Have Node installed in order to use the "node index.js" in the terminal
+  make sure node is installed
 
   ## License
 
@@ -27,11 +29,11 @@
 
   ## Contributing
 
-  Feel free to add whatever you want
+  feel free to add anything
 
   ## Tests
 
-  To test the project: Run "npm test".
+  To test the project: run "npm test".
 
   ## Questions
 

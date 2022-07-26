@@ -36,6 +36,8 @@ function generateMarkdown(data) {
 
   ## Description
 
+  ${data.description}
+  
   ## Table of Contents
 
   * [Installation](#installation)
@@ -47,7 +49,7 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  To install the project: ${data.install}
+  To install the project: ${data.installation}
 
   ## Usage
 
