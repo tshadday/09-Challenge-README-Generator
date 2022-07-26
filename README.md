@@ -3,6 +3,8 @@
    
 
   ## Description
+  
+  This is a professional README Generator that creates a new README.md file. Simply answer the questions and prompts as they appear and the README will be created once you have finished.
 
   ## Table of Contents
 
@@ -15,7 +17,7 @@
 
   ## Installation
 
-  To install the project: undefined
+  To install the project: run "npm i", then run "node index.js" after downloading from Github and opening the integrated terminal.
 
   ## Usage
 
