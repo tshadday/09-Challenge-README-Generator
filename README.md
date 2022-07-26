@@ -3,25 +3,25 @@
    
 
   ## Description
-
-  makes a professional README from prompts
   
+  This is a professional README Generator that creates a new README.md file. Simply answer the questions and prompts as they appear and the README will be created once you have finished.
+
   ## Table of Contents
 
   * [Installation](#installation)
   * [Usage](#usage)
-   
+
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
   ## Installation
 
-  To install the project: run "npm i", then "run node index.js"
+  To install the project: run "npm i", then run "node index.js" after downloading from Github and opening the integrated terminal.
 
   ## Usage
 
-  make sure node is installed
+  Have Node installed in order to use the "node index.js" in the terminal
 
   ## License
 
@@ -29,11 +29,11 @@
 
   ## Contributing
 
-  feel free to add anything
+  Feel free to add whatever you want
 
   ## Tests
 
-  To test the project: run "npm test".
+  To test the project: Run "npm test".
 
   ## Questions
 
